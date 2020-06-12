@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Configurations>Debug;Release</Configurations>
+    <Version>1.0.0</Version>
+    <Authors>Mark Dickinson</Authors>
+    <Company>DickinsonBros</Company>
+    <RepositoryUrl>https://github.com/msdickinson/DickinsonBros.Encryption.JWT.Abstractions.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>
+      Abstractions For DickinsonBros.Encryption.JWT
+
+      https://github.com/msdickinson/DickinsonBros.Encryption.JWT
+    </Description>
+  </PropertyGroup>
+
+</Project>

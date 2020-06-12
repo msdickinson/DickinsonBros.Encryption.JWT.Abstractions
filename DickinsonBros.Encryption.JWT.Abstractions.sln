@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Encryption.JWT.Abstractions", "DickinsonBros.Encryption.JWT.Abstractions\DickinsonBros.Encryption.JWT.Abstractions.csproj", "{13EFFFB5-E48F-4E8F-883C-849D0C779B0A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 Abstractions", "1 Abstractions", "{61488DC8-BF87-4A86-9ECF-555FA2FC69E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9 Scripts", "9 Scripts", "{53BD1C3B-F762-4AD7-B3A6-EE75F745231C}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\CreateNugetPackagePreRelease.ps1 = Scripts\CreateNugetPackagePreRelease.ps1
+		DickinsonBros.Encryption.JWT.Abstractions.runsettings = DickinsonBros.Encryption.JWT.Abstractions.runsettings
+		Scripts\Publish.yml = Scripts\Publish.yml
+		Scripts\Test.yml = Scripts\Test.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DickinsonBros.Encryption.JWT.Abstractions.Tests", "DickinsonBros.Encryption.JWT.Abstractions.Tests\DickinsonBros.Encryption.JWT.Abstractions.Tests.csproj", "{DF4BF57E-0DC8-4F91-A117-8F5D161C6BB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13EFFFB5-E48F-4E8F-883C-849D0C779B0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13EFFFB5-E48F-4E8F-883C-849D0C779B0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13EFFFB5-E48F-4E8F-883C-849D0C779B0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13EFFFB5-E48F-4E8F-883C-849D0C779B0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4BF57E-0DC8-4F91-A117-8F5D161C6BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4BF57E-0DC8-4F91-A117-8F5D161C6BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4BF57E-0DC8-4F91-A117-8F5D161C6BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4BF57E-0DC8-4F91-A117-8F5D161C6BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{13EFFFB5-E48F-4E8F-883C-849D0C779B0A} = {61488DC8-BF87-4A86-9ECF-555FA2FC69E6}
+		{DF4BF57E-0DC8-4F91-A117-8F5D161C6BB7} = {61488DC8-BF87-4A86-9ECF-555FA2FC69E6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {12ECAFE3-2BB6-4BA5-A6FD-5FAA766C0FFE}
+	EndGlobalSection
+EndGlobal
